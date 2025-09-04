@@ -1,6 +1,6 @@
 {
   # Import all your configuration modules here
-  imports = [ ./bufferline.nix ];
+  imports = [ ./bufferline.nix ./plugins/default.nix];
   
 
     globalOpts = {
@@ -13,21 +13,5 @@
 
   colorschemes.gruvbox.enable = true;
 
-  plugins = {
-    lualine.enable = true;
-    telescope.enable = true;
-    treesitter.enable = true;
-    luasnip.enable = true;
-  };
-
-      plugins.lsp = {
-      enable = true;
-
-      servers = {
-        ts_ls.enable = true;
-	clangd.enable = true;
-	dockerls.enable = true;
-      };
-    };
 
 }
