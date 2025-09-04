@@ -1,5 +1,5 @@
 {
-  plugins.treesitter = {
+  plugins.web-devicons = {
     enable = true;
   };
 }
