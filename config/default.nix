@@ -11,7 +11,7 @@ _: {
 
     # Completion
     ./plugins/cmp/cmp.nix
-    ./plugins/cmp/cmp-copilot.nix
+#    ./plugins/cmp/cmp-copilot.nix
     ./plugins/cmp/lspkind.nix
     ./plugins/cmp/autopairs.nix
     ./plugins/cmp/schemastore.nix
@@ -26,7 +26,7 @@ _: {
     ./plugins/editor/illuminate.nix
     ./plugins/editor/indent-blankline.nix
     ./plugins/editor/todo-comments.nix
-    ./plugins/editor/copilot-chat.nix
+#  ./plugins/editor/copilot-chat.nix
     ./plugins/editor/navic.nix
 
     # UI plugins
@@ -49,7 +49,7 @@ _: {
     ./plugins/utils/extra_plugins.nix
     ./plugins/utils/mini.nix
     ./plugins/utils/markdown-preview.nix
-    ./plugins/utils/obsidian.nix
+#   ./plugins/utils/obsidian.nix
     ./plugins/utils/toggleterm.nix
     ./plugins/utils/web-devicons.nix
   ];

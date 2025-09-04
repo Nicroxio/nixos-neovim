@@ -1,12 +1,8 @@
 {
   colorschemes = {
-    catppuccin = {
+    gruvbox = {
       enable = true;
       settings = {
-        background = {
-          light = "macchiato";
-          dark = "mocha";
-        };
         custom_highlights = ''
           function(highlights)
             return {

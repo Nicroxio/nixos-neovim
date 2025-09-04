@@ -1,17 +1,11 @@
-# Nixvim template
+# My Nixvim config
 
-This template gives you a good starting point for configuring nixvim standalone.
 
-## Configuring
+## References
 
-To start configuring, just add or modify the nix files in `./config`.
-If you add a new configuration file, remember to add it to the
-[`config/default.nix`](./config/default.nix) file
+This config was as of 04/09/25 completely stolen from
 
-## Testing your new configuration
+- [dc-tec](https://github.com/dc-tec/)
 
-To test your configuration simply run the following command
 
-```
-nix run .
-```
+Im in the process of making it my own
